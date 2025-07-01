@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* Reset & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* === Global body === */
+body {
+  background: url('img/galaxy-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* === Navbar === */
+header {
+  background: #000c;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+header .logo {
+  font-size: 1.7rem;
+  color: #00e0ff;
+}
+nav a {
+  margin-left: 1.5rem;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #00ffff;
+}
+
+/* === Hero section === */
+.hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero .content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+.hero p {
+  margin-top: 1rem;
+  max-width: 600px;
+  font-size: 1.2rem;
+}
+
+/* === Sections === */
+.section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00ffff;
+}
+
+/* === Card grid === */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  background: rgba(17, 17, 17, 0.85);
+  border: 1px solid #00ffff33;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 0 15px #00ffff55;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h3 {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: #00ffff;
+}
+.card p {
+  margin: 0 1rem 1rem;
+  color: #ddd;
+}
+.artikel-unduh {
+  display: inline-block;
+  margin: 0 1rem 1rem;
+  padding: 0.6rem 1rem;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.artikel-unduh:hover {
+  background-color: #00cccc;
+  color: #000;
+}
+
+
+/* === Alien floating image === */
+.cute-alien {
+  display: block;
+  margin: 2rem auto;
+  width: 120px;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+  color: #999;
+}

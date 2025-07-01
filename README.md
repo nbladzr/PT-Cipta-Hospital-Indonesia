@@ -42,14 +42,12 @@ Ini adalah website resmi futuristik untuk **PT Cipta Hospital Indonesia** — ru
 
 2. 🚀 Pindahkan ke htdocs:
 
-   ```
    C:/xampp/htdocs/rs-cipta-galaksi/
-   ```
 
 3. 🧠 Buka phpMyAdmin lalu:
 
-   Buat database `galaksi_rs`
-   Import file `galaksi_rs.sql`
+   Buat database galaksi_rs
+   Import file galaksi_rs.sql
 
 4. 💡 Jalankan Apache & MySQL melalui XAMPP
 
@@ -78,7 +76,7 @@ Ini adalah website resmi futuristik untuk **PT Cipta Hospital Indonesia** — ru
 
   🛸 Tidak butuh internet untuk menjalankan (cukup XAMPP)
   📤 Kirim pesan melalui form "Teleportasi"
-  📁 Semua artikel PDF bisa ditemukan di folder `pdf/`
+  📁 Semua artikel PDF bisa ditemukan di folder pdf/
   🧪 Form kontak dapat disesuaikan untuk menyimpan ke DB atau sekadar kirim lokal
 
 👽 Tentang Proyek Ini

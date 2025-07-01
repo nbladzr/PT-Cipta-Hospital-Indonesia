@@ -53,9 +53,7 @@ Ini adalah website resmi futuristik untuk **PT Cipta Hospital Indonesia** — ru
 
 5. 🌐 Buka di browser:
 
-   ```
-   http://localhost/rs-cipta-galaksi/
-   ```
+   http://localhost/galaksi_rs/
 
 🧾 Struktur Tabel `kontak`
 
